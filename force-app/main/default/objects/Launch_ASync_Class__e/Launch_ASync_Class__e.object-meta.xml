@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Publish an event to this bus to launch a new async class - queueable or batch</description>
+    <eventType>HighVolume</eventType>
+    <label>Launch ASync Class</label>
+    <pluralLabel>Launch ASync Classes</pluralLabel>
+    <publishBehavior>PublishImmediately</publishBehavior>
+</CustomObject>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Role__c</fullName>
+    <description>Select the role that this user should be updated to</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the role that this user should be updated to</inlineHelpText>
+    <label>New Role</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>00E3k000001roeX</fullName>
+                <default>false</default>
+                <label>CEO</label>
+            </value>
+            <value>
+                <fullName>00E3k000001roeo</fullName>
+                <default>false</default>
+                <label>COO</label>
+            </value>
+            <value>
+                <fullName>00E3k000001NKua</fullName>
+                <default>false</default>
+                <label>Jedi Master</label>
+            </value>
+            <value>
+                <fullName>00E3k000001NKuf</fullName>
+                <default>false</default>
+                <label>Jedi Knight</label>
+            </value>
+            <value>
+                <fullName>00E3k000001NKuk</fullName>
+                <default>false</default>
+                <label>Padawan</label>
+            </value>
+            <value>
+                <fullName>00E3k000001NKup</fullName>
+                <default>false</default>
+                <label>Youngling</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

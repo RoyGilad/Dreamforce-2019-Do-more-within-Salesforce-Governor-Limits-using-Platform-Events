@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Role_Name__c</fullName>
+    <description>Used to capture the name only of the new role, vs. the record ID</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to capture the name only of the new role, vs. the record ID</inlineHelpText>
+    <label>New Role Name</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>New_Role__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CEO</fullName>
+                <default>false</default>
+                <label>CEO</label>
+            </value>
+            <value>
+                <fullName>COO</fullName>
+                <default>false</default>
+                <label>COO</label>
+            </value>
+            <value>
+                <fullName>Jedi Master</fullName>
+                <default>false</default>
+                <label>Jedi Master</label>
+            </value>
+            <value>
+                <fullName>Jedi Knight</fullName>
+                <default>false</default>
+                <label>Jedi Knight</label>
+            </value>
+            <value>
+                <fullName>Padawan</fullName>
+                <default>false</default>
+                <label>Padawan</label>
+            </value>
+            <value>
+                <fullName>Youngling</fullName>
+                <default>false</default>
+                <label>Youngling</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>00E3k000001NKua</controllingFieldValue>
+            <valueName>Jedi Master</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>00E3k000001NKuf</controllingFieldValue>
+            <valueName>Jedi Knight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>00E3k000001roeX</controllingFieldValue>
+            <valueName>CEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>00E3k000001roeo</controllingFieldValue>
+            <valueName>COO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>00E3k000001NKuk</controllingFieldValue>
+            <valueName>Padawan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>00E3k000001NKup</controllingFieldValue>
+            <valueName>Youngling</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
